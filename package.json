@@ -1,0 +1,38 @@
+{
+  "name": "leverage-plugin-blues",
+  "version": "1.0.0",
+  "description": "A leverage plugin for synchronizing data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests :(\"",
+    "dev": "nodemon test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakehamilton/leverage-plugin-blues.git"
+  },
+  "keywords": [
+    "leverage",
+    "blues",
+    "plugin"
+  ],
+  "author": "Jake Hamilton <jehamilton122@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakehamilton/leverage-plugin-blues/issues"
+  },
+  "homepage": "https://github.com/jakehamilton/leverage-plugin-blues#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "leverage-js": "^1.3.1",
+    "leverage-plugin-socket.io": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "leverage-plugin-http": "^1.0.4",
+    "nodemon": "^1.12.1"
+  }
+}
